@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+/*SECCION HEADER*/
+header{
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/fondo.png");
+    background-size: contain;
+    background-position:center center;
+    background-attachment: fixed;
+    font-family: "Montserrat", sans-serif;
+}
+
+.contenedor-header{
+    
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7));
+    
+}
+
+.contenedor-header .logo {
+    margin: 10px 25px;
+}
+
+.contenedor-header .navegacion ul{
+    display: flex;
+    margin: 50px 0;
+}
+
+.contenedor-header .navegacion ul li{
+    color: aliceblue;
+    margin: 0 25px;
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+.contenedor-header .navegacion ul li:hover{
+    font-size: 25px;
+    color: #ff2558;
+}
+
+.contenedor-header .redes{
+    margin: 50px 25px;
+}
+
+.contenedor-header .redes ul a i{
+    color: aliceblue;
+    margin: 0 8px;
+    font-size: 20px;
+    transition: .5s;
+}
+
+.contenedor-header .redes ul a i:hover{
+    font-size: 25px;
+}
+
+
+header .texto{
+    color: aliceblue;
+    text-align: center;
+    margin: 100px auto;
+    width: 1100px;
+}
+
+header .texto h2{
+    font-weight: 400;
+    letter-spacing: 10px;
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+header .texto h1{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+header .texto p{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+header .texto .btn{
+    margin: 70px 0;
+    border: solid 2px #fff;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+header .texto .btn:hover{
+    background: #1cb698;
+    font-size: 20px;
+}
+
+
+/*SECCION SOBRE MI*/
+.contenedor-sobreMi{
+    background-color: #1e2326;
+    color: #fff;
+    padding: 50px 20px;
+}
+
+.sobreMi, .fila{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.sobreMi h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.sobreMi p{
+    font: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.sobreMi p span{
+    color: #1cb698;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.fila{
+    display: flex;
+}
+
+.fila .col{
+    width: 50%;
+}
+
+.fila .col h3{
+    font-size: 28px;
+    margin-bottom: 25px;
+    font-weight: 200;
+}
+
+.fila .col ul li{
+    margin: 12px 0;
+}
+
+.fila .col ul li strong{
+    display: inline-block;
+    color: #1cb698;
+    width: 110px;
+}
+
+.fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fila .col .contenedor-intereses .intereses{
+    width: 100px;
+    height: 100px;
+    background-color: #252a2e;
+    border-radius: 10px;
+    margin: 0 15px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: .5s;
+}
+
+.fila .col .contenedor-intereses .intereses:hover{
+    background-color: #1cb698;
+}
+
+.fila .col .contenedor-intereses .intereses i{
+    font-size: 30px;
+    margin-bottom: 10px
+}
+
+.fila .col .contenedor-intereses .intereses span{
+    font-size: 13px;
+}
+
+.above{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border: solid 3px black;
+    height: 50px;
+    width: 50px;
+    margin: 0px auto;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+.above a{
+    font-size: 30px;
+    color: #252a2e
+}
+
+.above a:hover{
+    font-size: 40px;
+    transition: .5s;
+    padding-bottom: 3px;
+}
+
+/*SECCION TECNOLOGIAS*/
+.fondo{
+    height: 200vh;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7)), url("../img/composicion-sistema-html-sitios-web.jpg");
+    background-size: contain;
+    background-position:center center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.subTitulo{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 1100px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0,0,0, .7), rgba(0,0,0, .7));
+    flex-wrap: wrap;
+    border-radius: 20px;
+    border: solid 5px #1cb698;
+}
+
+.content {
+    position: relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    text-align: center;
+}
+
+.content img{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    background: #eee;
+    border-radius: 50%;
+}
+
+.content h2{
+    font-size: 18px;
+    margin: 10px;
+}
+
+.content p{
+    font-size: 13px;
+    line-height: 1.4;
+}
+
+.wrapper hr{
+    margin-bottom: 30px;
+    width: 70%;
+    height: 3px;
+    background-color: #1cb698;
+}
+
+.title h3{
+    padding: 0 30px;
+    padding-bottom: 20px;
+    font-size: 18px;
+
+}
+
+.imgAndText{
+    display: flex;
+    padding: 20px 30px;
+    gap: 5px;
+}
+
+.imgAndText img{
+    height: 250px;
+    border-radius: 20px;
+    border: 5px solid #eee;
+}
+
+.imgAndText p{
+    font-size: 15px;
+    text-align: justify;
+    margin: 0 5px;
+}
+
+/* SECCION CONTACTO */
+.contacto{
+    background: #1e2326;
+}   
+
+.container-form{
+    width: 100%;
+    max-width: 1100px;
+    height: 80vh;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+    color: #eee;
+    
+}
+
+.container-form .info-form{
+    margin: 90px 20px
+}
+
+.container-form h2{
+    font-size: 48px;
+    margin-bottom: 15px;
+}
+
+.container-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: justify;
+}
+
+.container-form a{
+    font-size: 17px;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #eee
+    font-weight: 700;
+}
+
+.container-form a i{
+    color: #1cb698;
+    margin-right: 10px;
+}
+
+.container-form form{
+
+    margin: 95px 20px;
+}
+
+.container-form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #ff2558;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+
+.container-form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+
+.container-form .btn-enviar{
+    padding: 15px;
+    margin: 50px 0 0 0;
+    font-size: 16px;
+    background: #252a2e;
+    color: #eee;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+
+.container-form .btn-enviar:hover{
+    background: #ff2558;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 200px;
+    background: aqua;
+}
+
+.footer-content h2{
+    font-size: 3em;
+}
+
+.footer-content h5{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-top: 1em;
+    font-size: 30px;
+}

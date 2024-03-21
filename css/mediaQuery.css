@@ -1,0 +1,82 @@
+/* MEDIA HEADER */
+@media screen and (max-width: 1000px) {
+    
+    .contenedor-header .navegacion ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor-header .navegacion ul li{
+        margin-top: 10px;
+    }
+    
+    
+    header .texto{
+        width: 600px;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+  
+    header{
+        height: 950px;
+    }
+
+    header .texto{
+        width: 400px;
+    }
+
+    .contenedor-header .navegacion ul{
+        margin-right: 55px; 
+    }    
+
+    .contenedor-header .redes ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor-header .redes ul a i{
+        margin-top: 15px;
+    }
+}
+
+/* MEDIA TECNOLOGIA */
+
+@media screen and (max-width: 1250px){
+    .fondo {
+        height: 250vh;
+    }
+}
+
+
+@media screen and (max-width: 1050px){
+    .fondo {
+        height: 300vh;
+    }
+
+    .other{
+        margin: 0 25px;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .fondo {
+        height: 425vh;
+    }
+
+    .imgAndText{
+        display: block;
+    }
+
+    .imgAndText p{
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (max-width: 690px){
+    .fondo{
+        height: 450vh;
+    }
+}
+

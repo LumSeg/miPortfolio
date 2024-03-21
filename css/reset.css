@@ -1,0 +1,56 @@
+/* Reset CSS */
+
+/* Box sizing border-box por defecto */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+/* Reset de márgenes y padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, figcaption, blockquote, dl, dd {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos básicos para el cuerpo */
+body {
+    font-family: 'Gill Sans', sans-serif;
+    line-height: 1.6;
+}
+
+/* Lista sin estilos */
+ul, ol {
+    list-style: none;
+}
+
+/* Elementos de formulario sin estilos */
+button, input, select, textarea {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    vertical-align: middle;
+}
+
+/* Imágenes 100% de ancho */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Elementos de enlace sin decoración */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Textarea con resize desactivado */
+textarea {
+    resize: none;
+}
